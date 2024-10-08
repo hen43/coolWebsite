@@ -1,29 +1,36 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #000000;
+
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.Main {
+  height: 60rem;
+  width: 80rem;
+  margin: 0;
+  padding: 0;
+  gap: 0;
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(8rem + 2vmin);
+  font-size: 8rem;
+  background-color: #000000;
   color: white;
   font-family: 'AmaticSCBold';
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Button {
   outline: 0.5rem solid white;
+  background-color: black;
   padding: 0.8rem 8rem; 
   border-radius: 1rem;
   font-size: 5rem;
@@ -38,10 +45,8 @@
   scale: 1.05;
 }
 
-.Sussy-baka {
-  bottom: 0;
-  position: absolute;
-  opacity: 0.3;
+.hidden {
+  visibility:hidden;
 }
 
 @font-face {
